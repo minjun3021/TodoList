@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String inp=inputText.getText().toString();
+                String inp=inputText.getText().toString();g
                 items.add(inp);
                 mAdapter.notifyDataSetChanged();
                 inputText.setText("");
